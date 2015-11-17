@@ -10,7 +10,7 @@ alias -- -="cd -"
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias w="cd ~/workspace"
+alias dw="cd ~/workspace"
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -147,3 +147,21 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# git
+# Git Aliases
+alias gs='git s'
+alias gstsh='git stash'
+alias gst='git stash'
+alias gsp='git stash pop'
+alias gsa='git stash apply'
+alias gsh='git show'
+alias gshw='git show'
+alias gshow='git show'
+alias gi='vim .gitignore'
+alias gcm='git ci -m'
+alias gcim='git ci -m'
+alias gcam='git ca'
+alias gci='git ci'
+alias gco='git co'
+alias gcp='git cp'
